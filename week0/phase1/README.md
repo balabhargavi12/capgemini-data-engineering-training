@@ -1,4 +1,4 @@
-# Phase 1 – SQL to PySpark Basics
+# Phase 1 -  Completed SQL filtering and aggregation queries
 
 ## Objective
 To understand basic SQL queries and translate them into PySpark.
