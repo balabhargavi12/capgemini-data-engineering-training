@@ -83,7 +83,3 @@ All outputs (screenshots/results) are available in the `outputs/` folder.
 ## 🚀 Conclusion
 This phase demonstrates the implementation of a complete data engineering workflow using Databricks, showcasing both PySpark and SQL capabilities on a real-world dataset.
 
----
-
-## 📁 Project Structure
-
