@@ -3,7 +3,7 @@
 ## 📌Problem Understanding
 In this phase, the goal is to build a complete data engineering pipeline to process and analyze data. The objective is to generate meaningful business insights such as sales trends, customer behavior, and revenue distribution. This simulates a real-world scenario where large datasets need to be processed efficiently.
 
-##⚙️ Approach Taken
+## ⚙️ Approach Taken
 - Loaded datasets into PySpark environment  
 - Cleaned and preprocessed the data  
 - Performed joins between multiple datasets  
