@@ -115,7 +115,7 @@ When data distribution changes or varies over time.
 **4. How does quantile segmentation differ from fixed rules?**
 Quantile segmentation adapts to data distribution, while fixed rules remain constant.
 
-**5. Which method is best for real-world use?**
+**5. Which method is best for real-world use? **
 Quantile-based segmentation is more flexible and suitable for dynamic datasets.
 
 ---
