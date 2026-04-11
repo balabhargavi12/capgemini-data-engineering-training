@@ -1,108 +1,127 @@
+# 📊 Day 4 - Data Cleaning using SQL Functions (String, NULL & Date)
 
-# 🚀 Day 4 – SQL Practice (Numeric, String Functions & Date Manipulation)
+## 🎯 Objective
 
-## 📌 Objective
-
-The objective of Day 4 was to understand and practice **Numeric Functions, String Functions, and Date Manipulation** in SQL, and apply them for data transformation, cleaning, and analysis using Databricks.
-
----
-
-## 📊 Topics Covered
-
-* Numeric functions
-* String functions
-* Date manipulation functions
-* Data cleaning and transformation
-* Handling NULL values
+The objective of this phase is to understand how to use SQL functions to **clean, transform, and standardize data**.
+This includes handling missing values, formatting text, and performing date-based analysis.
 
 ---
 
-## ⚙️ Work Done
+## 🔹 Problem Summary
 
-### 🔹 Data Handling
+The datasets used in this phase contained:
 
-* Worked with datasets in Databricks using SQL
-* Verified data using `SELECT` queries
-* Performed transformations on both numeric and string data
+* Missing (**NULL**) values affecting calculations
+* Inconsistent text formats (uppercase, lowercase, extra spaces)
+* Date columns requiring extraction and comparison
 
----
+### Tasks Performed:
 
-### 🔹 Numeric Functions
-
-* Applied mathematical operations such as:
-
-  * `ABS()` → Absolute value
-  * `ROUND()` → Round numbers
-  * `CEIL()` → Round up values
-  * `FLOOR()` → Round down values
-  * `MOD()` → Find remainder
-  * `POWER()` → Exponential calculations
-  * `SQRT()` → Square root
+* Handle NULL values properly
+* Clean and standardize text data
+* Extract insights from date columns
+* Apply classification logic using conditions
 
 ---
 
-### 🔹 String Functions
+## 🔹 Approach
 
-* Performed string manipulation:
-
-  * `LENGTH()` → Count characters
-  * `UPPER()` / `LOWER()` → Case conversion
-  * `TRIM()` → Remove spaces
-  * `CONCAT()` → Combine strings
-  * `SUBSTRING()` → Extract text
-  * `REPLACE()` → Replace values
+* Identified columns with missing or inconsistent values
+* Applied NULL-handling techniques to avoid incorrect results
+* Cleaned text data using string functions
+* Used date functions for extracting and calculating values
+* Applied conditional logic (`CASE WHEN`) for classification
 
 ---
 
-### 🔹 Date Manipulation
+## 🔹 Key Transformations Used
 
-* Worked with date operations such as:
+### 🔸 NULL Functions
 
-  * `CURRENT_DATE()` → Get current date
-  * `DATE_ADD()` / `DATE_SUB()` → Add or subtract days
-  * `DATEDIFF()` → Calculate difference between dates
-  * `YEAR()`, `MONTH()`, `DAY()` → Extract date parts
-  * `TO_DATE()` → Convert string to date
+Used to handle missing values effectively:
 
----
+* Replaced NULL values with default values
+* Prevented NULL results in calculations
+* Ensured safe comparisons
 
-### 🔹 Problem Solving
-
-* Solved SQL problems using numeric, string, and date functions
-* Applied transformations to real-world scenarios
-* Validated outputs step by step
-* Ensured accuracy in calculations and data cleaning
+📌 **Importance:**
+Handling NULL values is critical to ensure **accurate and reliable results**.
 
 ---
 
-## 🔧 Key SQL Concepts Used
+### 🔸 String Functions
 
-* `ABS()`, `ROUND()`, `CEIL()`, `FLOOR()` → Numeric operations
-* `LENGTH()`, `TRIM()`, `CONCAT()` → String manipulation
-* `REPLACE()`, `SUBSTRING()` → Data transformation
-* `CURRENT_DATE()`, `DATEDIFF()` → Date operations
-* `COALESCE()` → Handling NULL values
+Used for cleaning and formatting text data:
 
----
+* Converted text to uppercase/lowercase
+* Formatted names into proper case
+* Removed unnecessary spaces
+* Extracted required substrings
 
-## 📈 Outcome
-
-* Successfully implemented numeric, string, and date functions
-* Improved data transformation and cleaning skills
-* Gained hands-on experience in Databricks SQL
-* Strengthened problem-solving abilities
+📌 **Importance:**
+Improves **data quality, consistency, and readability**.
 
 ---
 
-## 📚 Learnings
+### 🔸 Date Functions
 
-* Strong understanding of numeric and string operations
-* Learned date-based transformations and calculations
-* Improved ability to clean and process data
-* Gained confidence in solving real-world SQL problems
+Used to work with date-related data:
+
+* Extracted year/month from date columns
+* Calculated date differences
+* Compared dates with current date
+* Formatted date values
+
+📌 **Importance:**
+Essential for **time-based analysis** such as duration, experience, and trends.
 
 ---
 
-## ✅ Conclusion
+## 🔹 Output / Results
 
-Day 4 focused on combining numeric, string, and date functions in SQL. This helped in building a strong foundation for data transformation, cleaning, and analysis, which are essential for data engineering and analytics workflows.
+After applying transformations:
+
+* Clean datasets with properly handled NULL values
+* Standardized and consistent text data
+* Accurate date-based calculations
+* Categorized outputs based on business rules
+
+---
+
+## 🔹 Data Engineering Considerations
+
+* Proper NULL handling ensures **data reliability**
+* Standardized text improves **data usability**
+* Accurate date calculations support **business decisions**
+* Conditional logic helps in **data classification and insights**
+
+---
+
+## 🔹 Challenges Faced
+
+* Handling NULL values without affecting calculations
+* Choosing appropriate string functions
+* Understanding date difference calculations
+* Applying correct conditions for classification
+
+---
+
+## 🔹 Learnings
+
+* Importance of data cleaning before analysis
+* Practical usage of NULL handling functions
+* Role of string functions in improving data quality
+* Use of date functions for real-world scenarios
+* Applying conditional logic for business insights
+
+---
+
+## 🚀 Conclusion
+
+This phase helped in building a strong foundation in:
+
+* Data Cleaning
+* Data Transformation
+* SQL Function Usage
+
+These skills are essential for real-world **Data Engineering workflows and ETL pipelines**.
